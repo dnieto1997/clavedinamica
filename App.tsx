@@ -41,7 +41,7 @@ const App = () => {
   <View style={{margin:4,flexDirection:'row'}}>
 <CountdownCircleTimer
         isPlaying={true}
-        duration={60}
+       duration={60}
         colors={["#F7B801", "#F7B801", "#F7B801", "#F7B801"]}
         colorsTime={[10, 6, 3, 0]}
         onComplete={() => ({ shouldRepeat: true })}
